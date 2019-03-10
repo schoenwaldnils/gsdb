@@ -24,14 +24,14 @@
 	 background-color: #C0FCFF;
 	 color: #0B0B3B;
 	 display: inline;
-	 margin: 15px;
-	 border: 5px solid #2EFEF7;
-	 border-radius: 5px;
+	 margin: 20px;
+	 border: 5px solid #C0FCFF;
+	 border-radius: 0px;
 	 text-decoration: none;
 	 }
 	 .nav a:hover {
 	 background-color: #0B0B3B;
 	 color: #C0FCFF;
 	 border: 5px solid #0B0B3B;
-	 border-radius: 5px;
+	 border-radius: 0px;
 	 }
