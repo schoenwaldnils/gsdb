@@ -20,8 +20,8 @@
 	 text-align: center;
 	 }
 	 .nav a {
-	 height: 40px;
-	 background-color: #2EFEF7;
+	 height: 60px;
+	 background-color: #C0FCFF;
 	 color: #0B0B3B;
 	 display: inline;
 	 margin: 15px;
@@ -31,7 +31,7 @@
 	 }
 	 .nav a:hover {
 	 background-color: #0B0B3B;
-	 color: #2EFEF7;
+	 color: #C0FCFF;
 	 border: 5px solid #0B0B3B;
 	 border-radius: 5px;
 	 }
