@@ -35,3 +35,11 @@
 	 border: 5px solid #0B0B3B;
 	 border-radius: 0px;
 	 }
+	 .idee {
+		color: #0B0B3B;
+		box-align: center;
+	 }
+	 .idee p{
+		 text-align: center;
+		 font-size: 20px;
+	 }
