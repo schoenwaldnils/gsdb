@@ -21,3 +21,7 @@ jobs:
       - run:
           name: Deploy to S3
           command: aws s3 sync app s3://gsdb.schoen.world --region eu-central-1
+      - run:
+          name: Invalidate cache
+          command: aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
+
