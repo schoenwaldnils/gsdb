@@ -10,7 +10,7 @@ general:
      - master
 
 jobs:
-  deploy-master:
+  build:
     docker:
       - image: circleci/python:2.7-jessie
     steps:
