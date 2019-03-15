@@ -40,3 +40,15 @@ body {
   font-size: 18px;
   text-align: center;
 }
+
+thead {
+  font-weight: bold;
+}
+
+tr:nth-child(odd) {
+  background-color: #eee;
+}
+
+tr:hover {
+  background-color: #c0fcff;
+}

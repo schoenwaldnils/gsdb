@@ -1,6 +1,7 @@
 {
   "extends": "eslint-config-schoenwaldnils",
   "rules": {
-    "max-len": ["error", { "code": 120 }]
+    "max-len": ["error", { "code": 120 }],
+    "react/no-unescaped-entities": ["error", {"forbid": [">", "'", "}"]}]
   }
 }
