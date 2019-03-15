@@ -2,14 +2,36 @@ import React from 'react';
 
 import './Header.css';
 
-export default () => (
+const navItems = [
+  {
+    title: 'Home',
+    url: '/',
+  },
+  {
+    title: 'Datenbank',
+    url: '/db',
+  },
+  {
+    title: 'Forum',
+    url: '/forum',
+  },
+  {
+    title: 'Team',
+    url: '/team',
+  },
+  {
+    title: 'Torte',
+    url: '/torte',
+  },
+];
+
+export default ({ title }) => (
   <header className="Header">
-    <h1 className="Header-title">Home</h1>
+    <h1 className="Header-title">{title}</h1>
     <nav className="Header-nav">
-      <a className="Header-navItem" href="index.html">Home</a>
-      <a className="Header-navItem" href="db.html">Datenbank</a>
-      <a className="Header-navItem" href="forum.html">Forum</a>
-      <a className="Header-navItem" href="team.html">Das Team</a>
+      { navItems.map(item => (
+        <a className="Header-navItem" href={item.url}>{item.title}</a>
+      )) }
     </nav>
   </header>
 )

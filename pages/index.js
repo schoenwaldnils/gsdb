@@ -7,7 +7,7 @@ import Header from '../app/components/Header';
 const Page = () => {
   return (
     <Fragment>
-      <Header />
+      <Header title="Home" />
       <div className="idee">
         <h2>Die Idee</h2>
         <p>
