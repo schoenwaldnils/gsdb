@@ -50,7 +50,7 @@ class Page extends PureComponent {
         <Header title="Datenbank" />
 
         { this.state.hasLoaded ? (
-          <table>
+          <table className="dbtable">
             <thead>
               <td>Typ</td>
               <td>Grundsatz</td>

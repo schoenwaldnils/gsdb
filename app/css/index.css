@@ -43,6 +43,8 @@ body {
 
 thead {
   font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 tr:nth-child(odd) {
