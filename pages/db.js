@@ -52,21 +52,21 @@ class Page extends PureComponent {
         { this.state.hasLoaded ? (
           <table>
             <thead>
-              <td>Grundsatz</td>
               <td>Typ</td>
+              <td>Grundsatz</td>
               <td>Bibeltext</td>
             </thead>
             { this.grundsaetze.map(grundsatz => (
               <tr key={grundsatz.id}>
-                <td>{grundsatz.name}</td>
                 <td>{grundsatz.typ}</td>
-                <td>{grundsatz.bibeltext.stelle} {grundsatz.bibeltext.text}</td>
+                <td>{grundsatz.name}</td>
+                <td>{grundsatz.bibeltext.stelle} - {grundsatz.bibeltext.text}</td>
               </tr>
             ))}
           </table>
         ) : (
           <div>
-            hat noch nicht geladen
+            Noch nicht geladen!
           </div>
         ) }
       </Fragment>
