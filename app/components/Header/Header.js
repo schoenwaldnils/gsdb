@@ -22,7 +22,7 @@ const navItems = [
     url: '/team',
   },
   {
-    title: 'Torte',
+    title: 'Tortentool',
     url: '/torte',
   },
 ];
