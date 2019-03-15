@@ -1,0 +1,44 @@
+/** @define Header */
+
+.Header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  font-family: Verdana;
+  color: #0b0b3b;
+  text-align: center;
+  background-color: #c0fcff;
+}
+
+.Header-title {
+  margin: 0;
+  margin-bottom: 1rem;
+  font-size: 40px;
+}
+
+.Header-nav {
+  display: flex;
+  font-size: 20px;
+  color: #0b0b3b;
+  text-align: center;
+  background-color: #c0fcff;
+}
+
+.Header-navItem {
+  display: block;
+  padding: 5px;
+  color: #0b0b3b;
+  text-decoration: none;
+  background-color: #c0fcff;
+  transition: all 300ms;
+}
+
+.Header-navItem + .Header-navItem {
+  margin-left: 3rem;
+}
+
+.Header-navItem:hover {
+  color: #c0fcff;
+  background-color: #0b0b3b;
+}

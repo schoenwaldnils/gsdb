@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana;
+  background-color: white;
+}
+
+.idee {
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #0b0b3b;
+}
+
+.idee h2 {
+  text-align: center;
+}
+
+.idee p {
+  font-size: 18px;
+  text-align: center;
+}
+
+.texteins {
+  font-size: 24px;
+}
+
+.team {
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #0b0b3b;
+}
+
+.team h2 {
+  text-align: center;
+}
+
+.team p {
+  font-size: 18px;
+  text-align: center;
+}
