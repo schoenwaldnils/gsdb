@@ -41,10 +41,22 @@ body {
   text-align: center;
 }
 
-thead {
-  font-weight: bold;
+.dbtut {
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  color: #0b0b3b;
+}
+
+.dbtable{
+  width: 600px;
   margin-left: auto;
   margin-right: auto;
+  color: #0b0b3b;
+}
+
+thead {
+  font-weight: bold;
 }
 
 tr:nth-child(odd) {

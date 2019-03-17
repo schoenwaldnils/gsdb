@@ -14,16 +14,16 @@ const navItems = [
     url: '/db',
   },
   {
+    title: 'Tortentool',
+    url: '/torte',
+  },
+  {
     title: 'Forum',
     url: '/forum',
   },
   {
     title: 'Team',
     url: '/team',
-  },
-  {
-    title: 'Tortentool',
-    url: '/torte',
   },
 ];
 

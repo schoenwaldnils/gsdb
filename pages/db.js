@@ -48,7 +48,19 @@ class Page extends PureComponent {
     return (
       <Fragment>
         <Header title="Datenbank" />
+        <div className="dbtut">
+          <h2>Die Anmeldung</h2>
+          <p>
+            Die Anmeldung ist eigendlich sehr einfach, sonst kann gerne ein <a href="/team">Teammitglied</a> angeschieben werden.
+          </p>
+          <ol>
 
+            <li>Erstelle dir ein Account auf <a href="https://www.contentful.com/">Contentful</a></li>
+            <li>...</li>
+            <li>...</li>
+
+          </ol>
+        </div>
         { this.state.hasLoaded ? (
           <table className="dbtable">
             <thead>
