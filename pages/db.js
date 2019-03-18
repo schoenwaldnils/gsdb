@@ -1,14 +1,15 @@
-import React, { PureComponent, Fragment } from 'react';
+import React, { PureComponent } from 'react';
 
 import '../app/css/index.css';
 
+import Page from '../app/components/Page';
 import Meta from '../app/components/Meta';
 import Header from '../app/components/Header';
 
 import getEntries from '../app/js/contentful';
 
 
-class Page extends PureComponent {
+class PageDatabase extends PureComponent {
   constructor() {
     super();
     this.grundsaetze = [];
@@ -47,9 +48,7 @@ class Page extends PureComponent {
     }
 
     return (
-      <Fragment>
-        <Meta title="Datenbank" />
-        <Header title="Datenbank" />
+      <Page title="Datenbank">
         <div className="dbtut">
           <h2>Die Anmeldung</h2>
           <p>
@@ -84,9 +83,9 @@ class Page extends PureComponent {
             Noch nicht geladen!
           </div>
         ) }
-      </Fragment>
+      </Page>
     );
   }
 }
 
-export default Page;
+export default PageDatabase;
