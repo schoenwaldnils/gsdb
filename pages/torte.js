@@ -8,8 +8,8 @@ import Header from '../app/components/Header';
 const Page = () => {
   return (
     <Fragment>
-      <Meta title="Forum" />
-      <Header title="Forum" />
+      <Meta title="Tortentool" />
+      <Header title="Tortentool" />
     </Fragment>
   );
 };
