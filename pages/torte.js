@@ -7,7 +7,7 @@ import Header from '../app/components/Header';
 const Page = () => {
   return (
     <Fragment>
-      <Header title="Forum" />
+      <Header title="Tortentool" />
     </Fragment>
   );
 };
