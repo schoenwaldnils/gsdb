@@ -17,7 +17,7 @@ export default () => (
       <p>
         Das bedeutet, dass es ein System gibt,
         in das die Grundsätze hineingeschrieben werden können und dank einer
-        Suchfunktion oder Gruppierung leicht wiedergefunden werden können.
+        Suchfunktion leicht wiedergefunden werden können.<br />
         Wie die Seite
         <a href="https://de.wikipedia.org/wiki/Wikipedia:Hauptseite">Wikipedia</a>,
         soll die Grundsatzdatenbank durch Einträge von Usern gefüttert werden und immer weiter wachsen.
@@ -44,12 +44,12 @@ export default () => (
       <p>
         Ein Gesetz ist ein eindeutiger Befehl etwas zu tun oder nicht zu tun.
         Als Beispiel: <i>"Gehe nicht über eine rote Ampel"</i>.
-        Entweder man hält sich an das Gestz oder auch nicht.
+        Entweder man hält sich an das Gesetz oder auch nicht.
       </p>
       <p>
         Ein Grundsatz hingegen kann von jedem anders interpretiert werden.
         Ein Beispiel wäre: <i>"Behandle andere so, wie du von ihnen behandelt werden möchtest"</i>.
-        Jeder würde seine Mitmenschen, nach disem Grundsatz, anders behandeln und das macht den Unterschied aus.
+        Jeder würde seine Mitmenschen, nach diesem Grundsatz, anders behandeln und das macht den Unterschied aus.
       </p>
     </div>
   </Page>

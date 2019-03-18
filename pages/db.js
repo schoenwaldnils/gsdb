@@ -58,8 +58,8 @@ class PageDatabase extends PureComponent {
 
           <ol>
             <li>Erstelle dir ein Account auf <a href="https://www.contentful.com/">Contentful</a></li>
-            <li>...</li>
-            <li>...</li>
+            <li>Schreibe an unsere Supportmail, dass du gerne Zugriff auf die Grundsatzdatenbank hättest. Erwähne bitte deinen Namen und deine Versammlung in der Email</li>
+            <li>Sobalt du Zugriff hast (du bekommst eine Mail) kannst du über <a href="https://www.contentful.com/">Contentful</a> Grundsätze in die Datenbank eintragen</li>
           </ol>
         </div>
 

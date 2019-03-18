@@ -5,6 +5,10 @@ body {
   background-color: white;
 }
 
+a {
+  text-decoration: none;
+}
+
 .idee {
   width: 600px;
   margin-right: auto;
@@ -46,6 +50,7 @@ body {
   margin-right: auto;
   margin-left: auto;
   color: #0b0b3b;
+  text-align: center;
 }
 
 .dbtable {

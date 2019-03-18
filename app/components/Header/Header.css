@@ -2,7 +2,7 @@
 
 .Header {
   --Header-backgroundColor: #c5eef5;
-  --Header-textColor: #3e4142;
+  --Header-textColor: #0b0b3b;
 
   display: flex;
   flex-direction: column;
