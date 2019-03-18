@@ -51,7 +51,7 @@ class Page extends PureComponent {
         <div className="dbtut">
           <h2>Die Anmeldung</h2>
           <p>
-            Die Anmeldung ist eigendlich sehr einfach, sonst kann gerne ein
+            Die Anmeldung ist eigendlich sehr einfach, sonst kann gerne ein {}
             <a href="/team">Teammitglied</a> angeschieben werden.
           </p>
 
