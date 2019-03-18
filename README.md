@@ -1,3 +1,3 @@
 # GSDB - Grundsatzdatenbank
 
-[![CircleCI master](https://img.shields.io/circleci/project/github/schoenwaldnils/gsdb/master.svg?style=flat-square)](https://circleci.com/gh/schoenwaldnils/workflows/gsdb/tree/master)
+[![CircleCI](https://circleci.com/gh/schoenwaldnils/gsdb/tree/master.svg?style=svg)](https://circleci.com/gh/schoenwaldnils/gsdb/tree/master)
