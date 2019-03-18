@@ -18,7 +18,7 @@ export default () => (
         Das bedeutet, dass es ein System gibt,
         in das die Grundsätze hineingeschrieben werden können und dank einer
         Suchfunktion leicht wiedergefunden werden können.<br />
-        Wie die Seite
+        Wie die Seite {}
         <a href="https://de.wikipedia.org/wiki/Wikipedia:Hauptseite">Wikipedia</a>,
         soll die Grundsatzdatenbank durch Einträge von Usern gefüttert werden und immer weiter wachsen.
       </p>

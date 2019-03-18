@@ -3,8 +3,6 @@ import React, { PureComponent } from 'react';
 import '../app/css/index.css';
 
 import Page from '../app/components/Page';
-import Meta from '../app/components/Meta';
-import Header from '../app/components/Header';
 
 import getEntries from '../app/js/contentful';
 
@@ -57,9 +55,17 @@ class PageDatabase extends PureComponent {
           </p>
 
           <ol>
-            <li>Erstelle dir ein Account auf <a href="https://www.contentful.com/">Contentful</a></li>
-            <li>Schreibe an unsere Supportmail, dass du gerne Zugriff auf die Grundsatzdatenbank hättest. Erwähne bitte deinen Namen und deine Versammlung in der Email</li>
-            <li>Sobalt du Zugriff hast (du bekommst eine Mail) kannst du über <a href="https://www.contentful.com/">Contentful</a> Grundsätze in die Datenbank eintragen</li>
+            <li>
+              Erstelle dir ein Account auf <a href="https://www.contentful.com/">Contentful</a>
+            </li>
+            <li>
+              Schreibe an unsere Supportmail, dass du gerne Zugriff auf die Grundsatzdatenbank hättest. {}
+              Erwähne bitte deinen Namen und deine Versammlung in der Email
+            </li>
+            <li>
+              Sobalt du Zugriff hast (du bekommst eine Mail) kannst du über {}
+              <a href="https://www.contentful.com/">Contentful</a> Grundsätze in die Datenbank eintragen
+            </li>
           </ol>
         </div>
 
