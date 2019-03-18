@@ -2,6 +2,7 @@ import React, { PureComponent, Fragment } from 'react';
 
 import '../app/css/index.css';
 
+import Meta from '../app/components/Meta';
 import Header from '../app/components/Header';
 
 import getEntries from '../app/js/contentful';
@@ -47,6 +48,7 @@ class Page extends PureComponent {
 
     return (
       <Fragment>
+        <Meta title="Datenbank" />
         <Header title="Datenbank" />
         <div className="dbtut">
           <h2>Die Anmeldung</h2>
