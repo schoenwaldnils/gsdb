@@ -21,7 +21,7 @@ const Page = () => {
           Bei Fragen gerne eine Email schreiben. Wir bitten um Verständnis, {}
           dass wir nicht jeden Tag auf jede Email antworten können. <br />
           Hier unsere Supportmail: {}
-          <a href="mailto:grundsatzdatenbank@gmail.com" title="Klicke um uns eine Mail zu schreiben!">
+          <a mailto="grundsatzdatenbank@gmail.com" title="Klicke um uns eine Mail zu schreiben.">
             grundsatzdatenbank@gmail.com
           </a>
         </p>
