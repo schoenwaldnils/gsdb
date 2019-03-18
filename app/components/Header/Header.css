@@ -1,14 +1,16 @@
 /** @define Header */
 
 .Header {
+  --Header-backgroundColor: #c5eef5;
+  --Header-textColor: #3e4142;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 10px;
   font-family: Verdana;
-  color: #0b0b3b;
-  text-align: center;
-  background-color: #c0fcff;
+  color: var(--Header-textColor);
+  background-color: var(--Header-backgroundColor);
 }
 
 .Header-title {
@@ -22,18 +24,14 @@
   flex-wrap: wrap;
   justify-content: center;
   font-size: 20px;
-  color: #0b0b3b;
-  text-align: center;
-  background-color: #c0fcff;
 }
 
 .Header-navItem {
   flex-shrink: 0;
   display: block;
   padding: 5px;
-  color: #0b0b3b;
+  color: var(--Header-textColor);
   text-decoration: none;
-  background-color: #c0fcff;
   transition: all 300ms;
 }
 
@@ -42,6 +40,6 @@
 }
 
 .Header-navItem:hover {
-  color: #c0fcff;
-  background-color: #0b0b3b;
+  color: var(--Header-backgroundColor);
+  background-color: var(--Header-textColor);
 }
