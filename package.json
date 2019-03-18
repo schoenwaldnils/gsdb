@@ -17,7 +17,8 @@
     "lint:js": "eslint \"**/*.js\"",
     "lint:js-fix": "eslint \"**/*.js\" --fix",
     "lint:html": "htmlhint out",
-    "minify-html": "html-minifier --input-dir out --output-dir out --file-ext html --minify-css"
+    "minify-html": "html-minifier --input-dir out --output-dir out --file-ext html --minify-css",
+    "favicons-generate": "real-favicon generate faviconDescription.json faviconData.json static/assets/images/favicons"
   },
   "repository": {
     "type": "git",
@@ -37,6 +38,7 @@
     "eslint": "^5.15.1",
     "eslint-config-schoenwaldnils": "^1.0.2",
     "html-minifier": "^3.5.21",
+    "html-react-parser": "^0.6.2",
     "htmlhint": "^0.11.0",
     "next": "^8.0.3",
     "postcss-calc": "^7.0.1",
@@ -50,5 +52,8 @@
     "react-dom": "^16.8.4",
     "stylelint": "^9.10.1",
     "stylelint-config-schoenwaldnils": "^2.1.1"
+  },
+  "devDependencies": {
+    "cli-real-favicon": "0.0.7"
   }
 }
