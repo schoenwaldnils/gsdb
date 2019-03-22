@@ -1,8 +1,11 @@
+
+/*Globale Formatierung für einige Elemente*/
 body {
   margin: 0;
   padding: 0;
   font-family: Verdana;
   background-color: white;
+  font-size: 18px;
 }
 
 a {
@@ -13,8 +16,10 @@ ol {
   list-style-position: inside;
 }
 
+/*Homeseite Formatierunen*/
+
 .idee {
-  width: 600px;
+  max-width: 600px;
   margin-right: auto;
   margin-left: auto;
   color: #0b0b3b;
@@ -29,12 +34,14 @@ ol {
   text-align: center;
 }
 
-.texteins {
+.bibeltexthome {
   font-size: 24px;
 }
 
+/*Teamseite Formatierungen*/
+
 .team {
-  width: 600px;
+  max-width: 600px;
   margin-right: auto;
   margin-left: auto;
   color: #0b0b3b;
@@ -49,16 +56,20 @@ ol {
   text-align: center;
 }
 
+/*Datenbankseite Tutorial Formatierung*/
+
 .dbtut {
-  width: 600px;
+  max-width: 600px;
   margin-right: auto;
   margin-left: auto;
   color: #0b0b3b;
   text-align: center;
 }
 
+/*Datenbankseite Datenbank Formatierung*/
+
 .dbtable {
-  width: 600px;
+  max-width: 600px;
   margin-right: auto;
   margin-left: auto;
   color: #0b0b3b;
@@ -66,6 +77,10 @@ ol {
 
 thead {
   font-weight: bold;
+}
+
+td {
+  padding: 5px;
 }
 
 tr:nth-child(even) {
