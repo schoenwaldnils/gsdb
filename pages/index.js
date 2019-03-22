@@ -26,7 +26,7 @@ export default () => (
         2. Das zweite und wichtigere Ziel lässt sich gut mit einem Bibeltext beschreiben:
       </p>
       <p>
-        <i className="texteins">"...lebt auch danach..." (Jakobus 1:22)</i>
+        <i className="bibeltexthome">"...lebt auch danach..." (Jakobus 1:22)</i>
       </p>
       <p>
         Es bringt nichts, die Grundsätze schön sortiert in einer Tabelle zu haben,
