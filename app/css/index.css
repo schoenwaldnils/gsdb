@@ -19,7 +19,7 @@ ol {
 /* Homeseite Formatierunen */
 
 .idee {
-  max-width: 600px;
+  max-width: 700px;
   margin-right: auto;
   margin-left: auto;
   color: #0b0b3b;
@@ -41,7 +41,7 @@ ol {
 /* Teamseite Formatierungen */
 
 .team {
-  max-width: 600px;
+  max-width: 700px;
   margin-right: auto;
   margin-left: auto;
   color: #0b0b3b;
@@ -59,7 +59,7 @@ ol {
 /* Datenbankseite Tutorial Formatierung */
 
 .dbtut {
-  max-width: 600px;
+  max-width: 700px;
   margin-right: auto;
   margin-left: auto;
   color: #0b0b3b;
@@ -69,7 +69,7 @@ ol {
 /* Datenbankseite Datenbank Formatierung */
 
 .dbtable {
-  max-width: 600px;
+  max-width: 700px;
   margin-right: auto;
   margin-left: auto;
   color: #0b0b3b;
