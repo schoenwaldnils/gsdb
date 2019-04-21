@@ -18,14 +18,10 @@ const Meta = ({
       <meta property="og:type" content={type} />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
-      <meta property="og:site_name" content="Schönwald" />
+      <meta property="og:site_name" content="Grundsatzdatenbank" />
       <meta property="og:image" content={image} />
       <meta property="og:image:width" content="200" />
       <meta property="og:image:height" content="200" />
-
-      <meta name="twitter:card" content="summary" />
-      <meta name="twitter:site" content="@schoenwaldnils" />
-      <meta name="twitter:creator" content="@schoenwaldnils" />
 
       <Favicons />
     </Head>
