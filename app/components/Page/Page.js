@@ -3,6 +3,7 @@ import PropsTypes from 'prop-types';
 
 import Meta from '../Meta';
 import Header from '../Header';
+import './Page.css';
 
 const Page = ({ title, children }) => (
   <Fragment>

@@ -4,12 +4,15 @@
   --main-max-width: 700px;
 }
 
+html {
+  font-family: Verdana;
+  font-size: 16px;
+  color: #0b0b3b;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: Verdana;
-  font-size: 18px;
-  color: #0b0b3b;
   background-color: white;
 }
 
@@ -24,60 +27,31 @@ ol {
 /* Homeseite Formatierunen */
 
 .idee {
-  max-width: var (--main-max-width);
-  margin-right: auto;
-  margin-left: auto;
-  color: #0b0b3b;
-}
-
-.idee h2 {
   text-align: center;
 }
 
-.idee p {
-  font-size: 18px;
-  text-align: center;
-}
 
 .bibeltexthome {
-  font-size: 24px;
+  font-size: 1.25rem;
 }
 
 /* Teamseite Formatierungen */
 
 .team {
-  max-width: var (--main-max-width);
-  margin-right: auto;
-  margin-left: auto;
-  color: #0b0b3b;
-}
-
-.team h2 {
   text-align: center;
 }
 
-.team p {
-  font-size: 18px;
-  text-align: center;
-}
 
 /* Datenbankseite Tutorial Formatierung */
 
 .dbtut {
-  max-width: var (--main-max-width);
-  margin-right: auto;
-  margin-left: auto;
-  color: #0b0b3b;
   text-align: center;
 }
 
 /* Datenbankseite Datenbank Formatierung */
 
 .dbtable {
-  max-width: var (--main-max-width);
-  margin-right: auto;
-  margin-left: auto;
-  color: #0b0b3b;
+  /* color: #0b0b3b; */
 }
 
 thead {
