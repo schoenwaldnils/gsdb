@@ -1,7 +1,8 @@
-
 /* Globale Formatierung für einige Elemente */
 :root {
   --main-max-width: 700px;
+  --main-padding: 10px;
+
 }
 
 body {
@@ -27,6 +28,7 @@ ol {
   max-width: var (--main-max-width);
   margin-right: auto;
   margin-left: auto;
+  padding: var (--main-padding);
   color: #0b0b3b;
 }
 
@@ -49,6 +51,7 @@ ol {
   max-width: var (--main-max-width);
   margin-right: auto;
   margin-left: auto;
+  padding: var (--main-padding);
   color: #0b0b3b;
 }
 
@@ -67,6 +70,7 @@ ol {
   max-width: var (--main-max-width);
   margin-right: auto;
   margin-left: auto;
+  padding: var (--main-padding);
   color: #0b0b3b;
   text-align: center;
 }
@@ -95,3 +99,7 @@ tr:nth-child(even) {
 tr:hover {
   background-color: #c0fcff;
 }
+
+/* Forumseite Formatierung */
+
+/* Tortentoolseite Formatierung */
