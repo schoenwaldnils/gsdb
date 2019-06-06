@@ -4,3 +4,9 @@
   display: flex;
   flex-direction: column;
 }
+
+.Page-content {
+  max-width: var(--main-max-width);
+  margin-right: auto;
+  margin-left: auto;
+}
