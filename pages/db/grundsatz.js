@@ -3,6 +3,7 @@ import React, { PureComponent, Fragment } from 'react';
 import '../../app/css/index.css';
 
 import Page from '../../app/components/Page';
+import RichText from '../../app/components/RichText';
 
 import { getEntry } from '../../app/js/contentful';
 import getGrundsatzProps from '../../app/js/utils/getGrundsatzProps';
@@ -57,7 +58,9 @@ class Grundsatz extends PureComponent {
               </tr>
             </table>
             <div>
-              {this.grundsatz.content}
+              {this.grundsatz.content && (
+                <RichText content={this.grundsatz.content} />
+              )}
             </div>
           </Fragment>
         ) : (
