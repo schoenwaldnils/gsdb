@@ -28,15 +28,12 @@ ol {
 /* Homeseite Formatierunen */
 
 .idee {
-  max-width: var (--main-max-width);
-  margin-right: auto;
-  margin-left: auto;
-  padding: var (--main-padding);
-  color: #0b0b3b;
+  /* */
 }
 
+
 .idee h2 {
-  text-align: center;
+  /* */
 }
 
 
@@ -46,35 +43,10 @@ ol {
 
 /* Teamseite Formatierungen */
 
-.team {
-  max-width: var (--main-max-width);
-  margin-right: auto;
-  margin-left: auto;
-  padding: var (--main-padding);
-  color: #0b0b3b;
-}
-
-.team h2 {
-  text-align: center;
-}
-
 
 /* Datenbankseite Tutorial Formatierung */
 
-.dbtut {
-  max-width: var (--main-max-width);
-  margin-right: auto;
-  margin-left: auto;
-  padding: var (--main-padding);
-  color: #0b0b3b;
-  text-align: center;
-}
-
 /* Datenbankseite Datenbank Formatierung */
-
-.dbtable {
-  /* color: #0b0b3b; */
-}
 
 thead {
   font-weight: bold;
