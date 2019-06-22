@@ -5,7 +5,7 @@ const client = createClient({
   accessToken: process.env.CONTENTFUL_DELIVERY_TOKEN,
 });
 
-export default async (type) => {
+export const getEntries = async (type) => {
   let entries;
 
   try {
@@ -20,4 +20,19 @@ export default async (type) => {
   }
 
   return entries;
+};
+
+export const getEntry = async (id) => {
+  try {
+    const entries = await client.getEntries({
+      'sys.id': id,
+      include: 10,
+    }).catch((error) => {
+      throw new Error(error);
+    });
+
+    return entries.items[0];
+  } catch (error) {
+    throw new Error(error);
+  }
 };

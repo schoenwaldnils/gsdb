@@ -21,6 +21,16 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
+a,
+a:hover,
+a:visited {
+  color: inherit;
+}
+
 ol {
   list-style-position: inside;
 }
