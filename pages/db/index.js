@@ -1,10 +1,11 @@
 import React, { PureComponent } from 'react';
 
-import '../app/css/index.css';
+import '../../app/css/index.css';
 
-import Page from '../app/components/Page';
+import Page from '../../app/components/Page';
 
-import getEntries from '../app/js/contentful';
+import { getEntries } from '../../app/js/contentful';
+import getGrundsatzProps from '../../app/js/utils/getGrundsatzProps';
 
 
 class PageDatabase extends PureComponent {
@@ -23,17 +24,7 @@ class PageDatabase extends PureComponent {
   fetchGrundsaetze = async () => {
     const result = await getEntries('grundsatz');
 
-    this.grundsaetze = result.items.map((item) => {
-      return {
-        id: item.sys.id,
-        typ: item.fields.typ,
-        name: item.fields.name,
-        bibeltext: {
-          stelle: item.fields.bibeltext.fields.biblestelle,
-          text: item.fields.bibeltext.fields.text,
-        },
-      };
-    });
+    this.grundsaetze = result.items.map(item => getGrundsatzProps(item));
 
     this.setState({
       hasLoaded: true,
@@ -72,14 +63,16 @@ class PageDatabase extends PureComponent {
         { this.state.hasLoaded ? (
           <table className="dbtable">
             <thead>
-              <td>Typ</td>
-              <td>Grundsatz</td>
-              <td>Bibeltext</td>
+              <tr>
+                <th>Typ</th>
+                <th>Grundsatz</th>
+                <th>Bibeltext</th>
+              </tr>
             </thead>
             { this.grundsaetze.map(grundsatz => (
               <tr key={grundsatz.id}>
                 <td>{grundsatz.typ}</td>
-                <td>{grundsatz.name}</td>
+                <td><a href={`/db/grundsatz#${grundsatz.id}`}>{grundsatz.name}</a></td>
                 <td>{grundsatz.bibeltext.stelle} - {grundsatz.bibeltext.text}</td>
               </tr>
             ))}

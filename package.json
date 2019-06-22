@@ -32,6 +32,8 @@
   },
   "homepage": "https://github.com/schoenwaldnils/gsdb#readme",
   "dependencies": {
+    "@contentful/rich-text-react-renderer": "^13.2.0",
+    "@contentful/rich-text-types": "^13.1.0",
     "@zeit/next-css": "^1.0.1",
     "autoprefixer": "^9.5.0",
     "contentful": "^7.4.3",
